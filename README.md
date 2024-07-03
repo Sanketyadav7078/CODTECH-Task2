@@ -39,17 +39,17 @@
       3. It prompts the user to enter the number of subjects using input() and converts it to an integer using int().
       4. It creates an empty list called grades to store the grades for each subject.
       5. It uses a for loop to iterate num_subjects times:
-        . In each iteration, it prompts the user to enter a grade for the current subject using input().
-        . It converts the input to a float using float() and appends it to the grades list.
+          . In each iteration, it prompts the user to enter a grade for the current subject using input().
+          . It converts the input to a float using float() and appends it to the grades list.
       6. It calls the calculate_average(grades) function to calculate the student's average grade and stores the result in the average variable.
       7. It calls the get_letter_grade(average) function to determine the student's letter grade based on the average and stores the result in the letter_grade variable.
       8. It prints the student's name, average grade (formatted to 2 decimal places), and letter grade.
       9. It determines the student's GPA based on the letter grade:
-        . If the letter grade is 'A', the GPA is set to 4.0.
-        . If the letter grade is 'B', the GPA is set to 3.0.
-        . If the letter grade is 'C', the GPA is set to 2.0.
-        . If the letter grade is 'D', the GPA is set to 1.0.
-        . If the letter grade is 'F', the GPA is set to 0.0.
+          . If the letter grade is 'A', the GPA is set to 4.0.
+          . If the letter grade is 'B', the GPA is set to 3.0.
+          . If the letter grade is 'C', the GPA is set to 2.0.
+          . If the letter grade is 'D', the GPA is set to 1.0.
+          . If the letter grade is 'F', the GPA is set to 0.0.
       10. It prints the student's GPA (formatted to 2 decimal places).
 
 Finally, the if __name__ == "__main__": block ensures that the main() function is only executed when the script is run directly (not imported as a module).
